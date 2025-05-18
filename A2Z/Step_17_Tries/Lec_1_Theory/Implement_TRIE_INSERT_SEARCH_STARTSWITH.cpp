@@ -5,6 +5,9 @@ using namespace std;
 struct Node{
     Node* links[26];
     bool flag=false;
+    Node(){
+        for(auto &link:links) link=nullptr;
+    }
 
     bool containsKey(char ch){
         return (links[ch-'a']!=nullptr);
