@@ -81,5 +81,6 @@ int main(){
     cout<<trie.startsWith("ha")<<endl;
     cout<<trie.search("hammer")<<endl;
     cout<<trie.search("harder")<<endl;
+
     return 0;
 }
