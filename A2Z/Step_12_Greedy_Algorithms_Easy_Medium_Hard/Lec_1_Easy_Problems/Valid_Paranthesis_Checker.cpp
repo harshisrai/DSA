@@ -5,7 +5,7 @@ using namespace std;
 class Solution {
 public:
     bool checkValidString(string s) {
-        int low = 0, high = 0;
+        int low = 0, high = 0; // both are count of (
 
         for (char ch : s) {
             if (ch == '(') {
@@ -21,4 +21,6 @@ public:
 
         return low == 0;
     }
+
+    /*The idea is to ensure that it works for the extreme cases - * as ( and ) - if yes then return true */
 };
