@@ -28,7 +28,7 @@ class Solution {
                 ans=min(ans,arr[mid]);
                 r=mid-1;
             }
-            // cout<<ans<<endl;
+            // cout<<ans<<endl; 
         }
         return -1;
     }
