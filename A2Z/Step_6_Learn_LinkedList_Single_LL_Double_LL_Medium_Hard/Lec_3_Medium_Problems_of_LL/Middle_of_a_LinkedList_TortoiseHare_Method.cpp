@@ -1,5 +1,6 @@
 /* Problem: Middle_of_a_LinkedList_TortoiseHare_Method */
 
+
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
